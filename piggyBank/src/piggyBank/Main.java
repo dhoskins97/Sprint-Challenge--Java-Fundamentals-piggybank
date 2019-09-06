@@ -23,4 +23,11 @@ public class Main
 		bank.add(dimes);
 		bank.add(dollar);
 		bank.add(pennies);
+
+		System.out.println("\n***** Coins Entered *****\n");
+		bank.forEach((c) -> System.out.println(c.printQuantity()));
+
+		double bankValue = 0;
+		bank.forEach((c) -> {bankValue = bankValue = c.printTotalValue()});
+	}
 }
