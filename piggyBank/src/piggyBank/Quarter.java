@@ -6,6 +6,7 @@ public class Quarter extends Coin
 	{
 		super(quantity);
 		this.name = "Quarter";
+		this.pluralName = "Quarters";
 		this.value = 0.25;
 	}
 

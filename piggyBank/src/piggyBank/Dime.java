@@ -6,6 +6,7 @@ public class Dime extends Coin
 	{
 		super(quantity);
 		this.name = "Dime";
+		this.pluralName = "Dimes";
 		this.value = 0.10;
 	}
 

@@ -6,6 +6,7 @@ public class Nickel extends Coin
 	{
 		super(quantity);
 		this.name = "Nickel";
+		this.pluralName = "Nickels";
 		this.value = 0.05;
 	}
 

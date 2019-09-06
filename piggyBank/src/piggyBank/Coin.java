@@ -6,10 +6,12 @@ public abstract class Coin
 	double totalValue;
 	int quantity;
 	String name;
+	String pluralName;
 
 	public Coin(int quantity)
 	{
 		this.quantity = quantity;
+		this.totalValue = quantity * value;
 	}
 
 	public Coin()
@@ -24,6 +26,8 @@ public abstract class Coin
 
 	public String printQuantity()
 	{
-		return quantity + " " + name;
+		if (quantity == 1)
+			{return quantity + " " + name;}
+		else {return quantity + " " + pluralName;}
 	}
 }

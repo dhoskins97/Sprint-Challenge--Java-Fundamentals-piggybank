@@ -6,6 +6,7 @@ public class Penny extends Coin
 	{
 		super(quantity);
 		this.name = "Penny";
+		this.pluralName = "Pennies";
 		this.value = 0.01;
 	}
 
